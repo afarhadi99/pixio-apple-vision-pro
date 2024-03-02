@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41F5C1FD2B8F02C000F28544 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 41F5C1FC2B8F02C000F28544 /* RealityKitContent */; };
+		41F5C1FF2B8F02C000F28544 /* pixio_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C1FE2B8F02C000F28544 /* pixio_appApp.swift */; };
+		41F5C2052B8F02C000F28544 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 41F5C2042B8F02C000F28544 /* ImageBasedLighting.skybox */; };
+		41F5C2072B8F02C200F28544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F5C2062B8F02C200F28544 /* Assets.xcassets */; };
+		41F5C20A2B8F02C200F28544 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F5C2092B8F02C200F28544 /* Preview Assets.xcassets */; };
+		41F5C23B2B905C0900F28544 /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C23A2B905C0900F28544 /* Areas.swift */; };
+		41F5C24D2B90713E00F28544 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C24C2B90713E00F28544 /* ViewModel.swift */; };
+		41F5C24F2B90768100F28544 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C24E2B90768100F28544 /* Area.swift */; };
+		41F5C2512B90779300F28544 /* NavigationToAreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C2502B90779300F28544 /* NavigationToAreas.swift */; };
+		41F5C2532B90BF7E00F28544 /* GenerateArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C2522B90BF7E00F28544 /* GenerateArea.swift */; };
+		41F5C2552B90C0F800F28544 /* DrawArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C2542B90C0F800F28544 /* DrawArea.swift */; };
+		41F5C2582B915CA600F28544 /* GenerateImageArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C2572B915CA600F28544 /* GenerateImageArea.swift */; };
+		41F5C25A2B915CBD00F28544 /* FullGenerateArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5C2592B915CBD00F28544 /* FullGenerateArea.swift */; };
+		41F5C25D2B917BD600F28544 /* FalClient in Frameworks */ = {isa = PBXBuildFile; productRef = 41F5C25C2B917BD600F28544 /* FalClient */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41F5C1F72B8F02C000F28544 /* pixio-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixio-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F5C1FB2B8F02C000F28544 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		41F5C1FE2B8F02C000F28544 /* pixio_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pixio_appApp.swift; sourceTree = "<group>"; };
+		41F5C2042B8F02C000F28544 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		41F5C2062B8F02C200F28544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41F5C2092B8F02C200F28544 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41F5C20B2B8F02C200F28544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F5C23A2B905C0900F28544 /* Areas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Areas.swift; sourceTree = "<group>"; };
+		41F5C24C2B90713E00F28544 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		41F5C24E2B90768100F28544 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		41F5C2502B90779300F28544 /* NavigationToAreas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToAreas.swift; sourceTree = "<group>"; };
+		41F5C2522B90BF7E00F28544 /* GenerateArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateArea.swift; sourceTree = "<group>"; };
+		41F5C2542B90C0F800F28544 /* DrawArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawArea.swift; sourceTree = "<group>"; };
+		41F5C2572B915CA600F28544 /* GenerateImageArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateImageArea.swift; sourceTree = "<group>"; };
+		41F5C2592B915CBD00F28544 /* FullGenerateArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullGenerateArea.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41F5C1F42B8F02C000F28544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F5C1FD2B8F02C000F28544 /* RealityKitContent in Frameworks */,
+				41F5C25D2B917BD600F28544 /* FalClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F5C1EE2B8F02C000F28544 = {
+			isa = PBXGroup;
+			children = (
+				41F5C1F92B8F02C000F28544 /* pixio-app */,
+				41F5C1FA2B8F02C000F28544 /* Packages */,
+				41F5C1F82B8F02C000F28544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41F5C1F82B8F02C000F28544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41F5C1F72B8F02C000F28544 /* pixio-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41F5C1F92B8F02C000F28544 /* pixio-app */ = {
+			isa = PBXGroup;
+			children = (
+				41F5C2562B915C7D00F28544 /* RealityViews */,
+				41F5C23D2B906D2700F28544 /* Models */,
+				41F5C2172B8FBF9E00F28544 /* Areas */,
+				41F5C1FE2B8F02C000F28544 /* pixio_appApp.swift */,
+				41F5C2042B8F02C000F28544 /* ImageBasedLighting.skybox */,
+				41F5C2062B8F02C200F28544 /* Assets.xcassets */,
+				41F5C20B2B8F02C200F28544 /* Info.plist */,
+				41F5C2082B8F02C200F28544 /* Preview Content */,
+			);
+			path = "pixio-app";
+			sourceTree = "<group>";
+		};
+		41F5C1FA2B8F02C000F28544 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				41F5C1FB2B8F02C000F28544 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		41F5C2082B8F02C200F28544 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41F5C2092B8F02C200F28544 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41F5C2172B8FBF9E00F28544 /* Areas */ = {
+			isa = PBXGroup;
+			children = (
+				41F5C23A2B905C0900F28544 /* Areas.swift */,
+				41F5C2502B90779300F28544 /* NavigationToAreas.swift */,
+				41F5C2522B90BF7E00F28544 /* GenerateArea.swift */,
+				41F5C2542B90C0F800F28544 /* DrawArea.swift */,
+			);
+			path = Areas;
+			sourceTree = "<group>";
+		};
+		41F5C23D2B906D2700F28544 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41F5C24C2B90713E00F28544 /* ViewModel.swift */,
+				41F5C24E2B90768100F28544 /* Area.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41F5C2562B915C7D00F28544 /* RealityViews */ = {
+			isa = PBXGroup;
+			children = (
+				41F5C2572B915CA600F28544 /* GenerateImageArea.swift */,
+				41F5C2592B915CBD00F28544 /* FullGenerateArea.swift */,
+			);
+			path = RealityViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41F5C1F62B8F02C000F28544 /* pixio-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F5C20E2B8F02C200F28544 /* Build configuration list for PBXNativeTarget "pixio-app" */;
+			buildPhases = (
+				41F5C1F32B8F02C000F28544 /* Sources */,
+				41F5C1F42B8F02C000F28544 /* Frameworks */,
+				41F5C1F52B8F02C000F28544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pixio-app";
+			packageProductDependencies = (
+				41F5C1FC2B8F02C000F28544 /* RealityKitContent */,
+				41F5C25C2B917BD600F28544 /* FalClient */,
+			);
+			productName = "pixio-app";
+			productReference = 41F5C1F72B8F02C000F28544 /* pixio-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41F5C1EF2B8F02C000F28544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					41F5C1F62B8F02C000F28544 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 41F5C1F22B8F02C000F28544 /* Build configuration list for PBXProject "pixio-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41F5C1EE2B8F02C000F28544;
+			packageReferences = (
+				41F5C25B2B917BD600F28544 /* XCLocalSwiftPackageReference "../../Downloads/fal-swift-0.5.3" */,
+			);
+			productRefGroup = 41F5C1F82B8F02C000F28544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41F5C1F62B8F02C000F28544 /* pixio-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41F5C1F52B8F02C000F28544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F5C2072B8F02C200F28544 /* Assets.xcassets in Resources */,
+				41F5C20A2B8F02C200F28544 /* Preview Assets.xcassets in Resources */,
+				41F5C2052B8F02C000F28544 /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41F5C1F32B8F02C000F28544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F5C2552B90C0F800F28544 /* DrawArea.swift in Sources */,
+				41F5C2582B915CA600F28544 /* GenerateImageArea.swift in Sources */,
+				41F5C24D2B90713E00F28544 /* ViewModel.swift in Sources */,
+				41F5C2512B90779300F28544 /* NavigationToAreas.swift in Sources */,
+				41F5C24F2B90768100F28544 /* Area.swift in Sources */,
+				41F5C23B2B905C0900F28544 /* Areas.swift in Sources */,
+				41F5C1FF2B8F02C000F28544 /* pixio_appApp.swift in Sources */,
+				41F5C25A2B915CBD00F28544 /* FullGenerateArea.swift in Sources */,
+				41F5C2532B90BF7E00F28544 /* GenerateArea.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41F5C20C2B8F02C200F28544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		41F5C20D2B8F02C200F28544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		41F5C20F2B8F02C200F28544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pixio-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 564V2L6G46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mytsi.pixio-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		41F5C2102B8F02C200F28544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pixio-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 564V2L6G46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mytsi.pixio-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F5C1F22B8F02C000F28544 /* Build configuration list for PBXProject "pixio-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F5C20C2B8F02C200F28544 /* Debug */,
+				41F5C20D2B8F02C200F28544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F5C20E2B8F02C200F28544 /* Build configuration list for PBXNativeTarget "pixio-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F5C20F2B8F02C200F28544 /* Debug */,
+				41F5C2102B8F02C200F28544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		41F5C25B2B917BD600F28544 /* XCLocalSwiftPackageReference "../../Downloads/fal-swift-0.5.3" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/fal-swift-0.5.3";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41F5C1FC2B8F02C000F28544 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		41F5C25C2B917BD600F28544 /* FalClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FalClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 41F5C1EF2B8F02C000F28544 /* Project object */;
+}
